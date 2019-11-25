@@ -1,3 +1,8 @@
+h1, h2, p {
+    color: red;
+    text-align: center;
+}
+/*
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +35,7 @@ input[type="submit"] {
     cursor: pointer;
     color: #fff;
 }
+*/
 /* AULA 01 
 h1 {
     color: blue;
