@@ -1,8 +1,23 @@
+.texto-principal {
+    color: red;
+    text-align: center;
+}
+.fundo-principal {
+    background-color: green;
+    padding: 20px;
+}
+#conteudo {
+    background-color: blue;
+    padding: 20px;
+    color: green;
+}
+/* AULA 04
 h1, h2, p {
     color: red;
     text-align: center;
 }
-/*
+*/
+/**** AULA 02 E 03
 * {
     margin: 0;
     padding: 0;
