@@ -6,8 +6,8 @@
     src: url(opensans-regular-webfont.woff);
 }
 p {
-    font-family: open_sans;
-    font-size: 2.5em;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.2em;
 }
 /** AULA 12
 #bloco {
