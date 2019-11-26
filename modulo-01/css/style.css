@@ -1,8 +1,10 @@
+
 #cores {
     width: 200px;
     height: 200px;
-    background-color: hsla(20, 100%, 59%, 0.2);
+    background: radial-gradient(red, green);
 }
+
 /** AULA 13 e 14
 *{
     font-size: 100%;
