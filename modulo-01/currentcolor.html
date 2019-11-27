@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>currentColor</title>
+    <title>var()</title>
     <meta charset="utf-8">
 
     <style>
-        body {
-            background-color: blue; 
+        :root {
+            --bg-color: blue;
+            --cor-do-texto: #fff;
+            --espacamento: 20px;
         }
-        button {
-            background-color: white;
-            color: red;
-            width: 100px;
-            height: 50px;
-            border: 2px solid currentColor;
+
+        #div1 {
+            background-color: var(--bg-color);
+            color: var(--cor-do-texto);
+            padding: var(--espacamento);
         }
     </style>
 </head>
 <body>
-    <button>Cadastrar</button>
+    <div id="id1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dicta animi ea perferendis magnam incidunt ut consequatur. Distinctio expedita odit, vel at ipsa tempore iste ea dolores. Blanditiis, accusamus consequatur!</p>
+    </div>
+    <div id="id2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dicta animi ea perferendis magnam incidunt ut consequatur. Distinctio expedita odit, vel at ipsa tempore iste ea dolores. Blanditiis, accusamus consequatur!</p>
+    </div>
+    <div id="id3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dicta animi ea perferendis magnam incidunt ut consequatur. Distinctio expedita odit, vel at ipsa tempore iste ea dolores. Blanditiis, accusamus consequatur!</p>
+    </div>
 </body>
 </html>
