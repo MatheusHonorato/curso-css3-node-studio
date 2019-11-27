@@ -1,4 +1,17 @@
-
+#conteudo {
+    width: 600px;
+    height: 1200px;
+    background-color: red;
+    position: relative;
+}
+#texto {
+    width: 500px;
+    background-color: green;
+    position: fixed;
+    left: 20;
+    top: 0;
+}
+/** AULA 18
 #base {
     background-color: green;
     width: 600px;
@@ -16,6 +29,7 @@
     height: 300px;
     float: right;
 }
+*/
 /** AULA 17
 #cores {
     width: 200px;
