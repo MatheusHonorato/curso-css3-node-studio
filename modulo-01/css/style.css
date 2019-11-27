@@ -1,3 +1,8 @@
+#exemplo {
+    border-bottom: solid 5px red;
+    outline: dotted 5px green;
+}
+/** AULA 19
 #conteudo {
     width: 600px;
     height: 1200px;
@@ -11,6 +16,7 @@
     left: 20;
     top: 0;
 }
+*/
 /** AULA 18
 #base {
     background-color: green;
